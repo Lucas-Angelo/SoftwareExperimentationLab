@@ -1,13 +1,33 @@
 import requests
 import json
+import csv
 
 with open('.env', 'r') as file:
     access_token = file.read().replace('\n', '')
 ACCESS_TOKEN = access_token
 
+def saveInCSV():
+    with open('result.json') as json_file:
+        data = json.load(json_file)
+    data_file = open('data_file.csv', 'w', newline='', encoding='utf-8')
+    csv_writer = csv.writer(data_file)
+    count = 0
+    for rep in data:
+        if count == 0:
+    
+            # Writing headers of CSV file
+            header = rep.keys()
+            csv_writer.writerow(header)
+            count += 1
+    
+        # Writing data of CSV file
+        csv_writer.writerow(rep.values())
+    
+    data_file.close()
+
 def saveJsonResult(resultArray):
     with open('result.json', 'w', encoding='utf-8') as f:
-        json.dump(json.loads(json.dumps(resultArray)), f, ensure_ascii=False, indent=4)
+        json.dump(json.loads(json.dumps(resultArray))[0], f, ensure_ascii=False, indent=4)
 
 def setNextPage(hasNextPage, actualEndCursor, i, numberOfPages):
     if(hasNextPage == False or i==numberOfPages-1):
@@ -103,7 +123,7 @@ def paginationLoop():
         resultFromRequest = sendRequest(query, url, headers)
         isFirstRequest = False
 
-        resultArray.append(json.loads(resultFromRequest))
+        resultArray.append(json.loads(resultFromRequest)['data']['search']['nodes'])
 
         hasNextPage = getHasNextPage(resultFromRequest)
         actualEndCursor = getEndCursor(resultFromRequest)
@@ -116,5 +136,6 @@ def paginationLoop():
 def main():
     resultArray = paginationLoop()
     saveJsonResult(resultArray)
+    saveInCSV()
 
 main()
