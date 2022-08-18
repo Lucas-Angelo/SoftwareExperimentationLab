@@ -1,0 +1,37 @@
+{
+  search(query: "stars:>500, sort:stars-desc", type: REPOSITORY, first: 20) {
+    pageInfo {
+      startCursor
+      hasNextPage
+      endCursor
+    }
+    nodes {
+      ... on Repository {
+        id
+        stargazerCount
+        nameWithOwner
+        url
+        createdAt
+        updatedAt
+        releases(first: 1, orderBy: { field: CREATED_AT, direction: DESC }) {
+          totalCount
+          nodes {
+            createdAt
+          }
+        }
+        primaryLanguage {
+          name
+        }
+        pullrequestsmerged: pullRequests(states: MERGED) {
+          totalCount
+        }
+        issues: issues {
+          totalCount
+        }
+        issuesclosed: issues(states: CLOSED) {
+          totalCount
+        }
+      }
+    }
+  }
+}
