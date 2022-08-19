@@ -13,12 +13,14 @@ def calculate_age(created):
     delta = datetime.now() - datetime(dt.year, dt.month, dt.day)
     return delta.days
 
-def saveInCSV(jsonArray):
+def saveInCSV(resultArray):
+    resultArray = json.load(resultArray)
+    
     data_file = open('data_file.csv', 'w', newline='', encoding='utf-8')
     csv_writer = csv.writer(data_file)
     null = None
     count = 0
-    for rep in jsonArray:
+    for rep in resultArray:
         
         rep['lastrelease'] = null
         rep['ageindays'] = null
@@ -72,9 +74,9 @@ def saveInCSV(jsonArray):
     
     data_file.close()
 
-def saveJsonResult(jsonArray):
+def saveJsonResult(resultArray):
     with open('result.json', 'w', encoding='utf-8') as f:
-        json.dump(jsonArray, f, ensure_ascii=False, indent=4)
+        json.dump(resultArray, f, ensure_ascii=False, indent=4)
 
 def setNextPage(hasNextPage, actualEndCursor, i, numberOfPages):
     if(hasNextPage == False or i==numberOfPages-1):
@@ -155,7 +157,7 @@ def paginationLoop():
 
     isFirstRequest = True
     dataPerPage = "20"
-    numberOfPages = 50
+    numberOfPages = 3
     
     hasNextPage = True
     actualEndCursor = ""
@@ -178,12 +180,18 @@ def paginationLoop():
 
         print(i)
         i=i+1
+
+    newArray = []
+    for internArr in resultArray:
+        for x in internArr:
+            newArray.append(x)
+    resultArray = newArray;
+
     return resultArray
 
 def main():
     resultArray = paginationLoop()
-    jsonArray = json.loads(json.dumps(resultArray[0]))
-    saveJsonResult(jsonArray)
-    saveInCSV(jsonArray)
+    saveJsonResult(resultArray)
+    saveInCSV(resultArray)
 
 main()
