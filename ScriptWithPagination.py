@@ -14,8 +14,6 @@ def calculate_age(created):
     return delta.days
 
 def saveInCSV(resultArray):
-    resultArray = json.load(resultArray)
-    
     data_file = open('data_file.csv', 'w', newline='', encoding='utf-8')
     csv_writer = csv.writer(data_file)
     null = None
@@ -157,7 +155,7 @@ def paginationLoop():
 
     isFirstRequest = True
     dataPerPage = "20"
-    numberOfPages = 3
+    numberOfPages = 50
     
     hasNextPage = True
     actualEndCursor = ""
