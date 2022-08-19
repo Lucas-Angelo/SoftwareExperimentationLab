@@ -1,33 +1,80 @@
 import requests
 import json
 import csv
+from dateutil import parser
+from datetime import datetime
 
 with open('.env', 'r') as file:
     access_token = file.read().replace('\n', '')
 ACCESS_TOKEN = access_token
 
-def saveInCSV():
-    with open('result.json') as json_file:
-        data = json.load(json_file)
+def calculate_age(created):
+    dt = parser.parse(created)
+    delta = datetime.now() - datetime(dt.year, dt.month, dt.day)
+    return delta.days
+
+def saveInCSV(jsonArray):
     data_file = open('data_file.csv', 'w', newline='', encoding='utf-8')
     csv_writer = csv.writer(data_file)
+    null = None
     count = 0
-    for rep in data:
+    for rep in jsonArray:
+        
+        rep['lastrelease'] = null
+        rep['ageindays'] = null
+        rep['dayssincelastupdate'] = null
+        rep['dayssincelastrelease'] = null
+
         if count == 0:
-    
             # Writing headers of CSV file
             header = rep.keys()
             csv_writer.writerow(header)
             count += 1
-    
+
+        rep['ageindays'] = calculate_age(rep['createdAt'])
+        rep['dayssincelastupdate'] = calculate_age(rep['updatedAt'])
+
+        if(
+            rep['releases'] is not None and 
+            len(rep['releases']['nodes']) > 0 and
+            rep['releases']['nodes'][0] is not None and 
+            rep['releases']['nodes'][0]['createdAt'] is not None
+            ):
+            rep['lastrelease'] = rep['releases']['nodes'][0]['createdAt']
+            rep['dayssincelastrelease'] = calculate_age(rep['lastrelease'])
+
+        if(rep['releases'] is not None and rep['releases']['totalCount'] is not None):
+            rep['releases'] = rep['releases']['totalCount']
+        else:
+            rep['releases'] = null
+
+        if(rep['primaryLanguage'] is not None and rep['primaryLanguage']['name'] is not None):
+            rep['primaryLanguage'] = rep['primaryLanguage']['name']
+        else:
+            rep['primaryLanguage'] = null
+        
+        if(rep['pullrequestsmerged'] is not None and rep['pullrequestsmerged']['totalCount'] is not None):
+            rep['pullrequestsmerged'] = rep['pullrequestsmerged']['totalCount']
+        else:
+            rep['pullrequestsmerged'] = null
+        
+        if(rep['issues'] is not None and rep['issues']['totalCount'] is not None):
+            rep['issues'] = rep['issues']['totalCount']
+        else:
+            rep['issues'] = null
+
+        if(rep['issuesclosed'] is not None and rep['issuesclosed']['totalCount'] is not None):
+            rep['issuesclosed'] = rep['issuesclosed']['totalCount']
+        else:
+            rep['issuesclosed'] = null
         # Writing data of CSV file
         csv_writer.writerow(rep.values())
     
     data_file.close()
 
-def saveJsonResult(resultArray):
+def saveJsonResult(jsonArray):
     with open('result.json', 'w', encoding='utf-8') as f:
-        json.dump(json.loads(json.dumps(resultArray))[0], f, ensure_ascii=False, indent=4)
+        json.dump(jsonArray, f, ensure_ascii=False, indent=4)
 
 def setNextPage(hasNextPage, actualEndCursor, i, numberOfPages):
     if(hasNextPage == False or i==numberOfPages-1):
@@ -108,7 +155,7 @@ def paginationLoop():
 
     isFirstRequest = True
     dataPerPage = "20"
-    numberOfPages = 3
+    numberOfPages = 50
     
     hasNextPage = True
     actualEndCursor = ""
@@ -135,7 +182,8 @@ def paginationLoop():
 
 def main():
     resultArray = paginationLoop()
-    saveJsonResult(resultArray)
-    saveInCSV()
+    jsonArray = json.loads(json.dumps(resultArray[0]))
+    saveJsonResult(jsonArray)
+    saveInCSV(jsonArray)
 
 main()
