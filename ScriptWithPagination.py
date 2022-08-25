@@ -1,12 +1,72 @@
 import requests
 import json
 import csv
+import pandas as pd
+import dataframe_image as dfi
+import matplotlib.pyplot as plt
+from collections import Counter
 from dateutil import parser
 from datetime import datetime
+from pathlib import Path
 
-with open('.env', 'r') as file:
+input_file = '.env'
+input_in_path = Path(__file__).parent / input_file
+with open(str(input_in_path), 'r') as file:
     access_token = file.read().replace('\n', '')
 ACCESS_TOKEN = access_token
+
+def mode(df):
+    input_file = 'informations\\mode.txt'
+    input_in_path = Path(__file__).parent / input_file
+    column = df['primaryLanguage']
+    data = Counter(column)
+    with open(str(input_in_path), "w") as f:
+        for s in data.most_common():
+            f.write(str(s) +"\n")
+
+def boxPlotToPNG(df):
+    myFig = plt.figure()
+    plt.title('Boxplot')
+    input_file = 'informations\\boxplot.png'
+    input_in_path = Path(__file__).parent / input_file
+    stud_bplt = df.boxplot(showfliers=False)
+    stud_bplt.plot()
+    myFig.savefig(str(input_in_path), format="png")
+
+    columnsList = ['stargazerCount', 'releases', 'pullrequestsmerged',
+                    'issues', 'issuesclosed', 'ageindays',
+                    'dayssincelastupdate', 'dayssincelastrelease'
+                ]
+    columnsTitlesList = ['Stars Count', 'Releases Count', 'Pull Requests Merged',
+                'Issues Count', 'Issues Closed Count', 'Age In Days',
+                'Days Since Last Update', 'Days Since Last Release'
+            ]
+    i = 0;
+    for column in columnsList:
+        myFig = plt.figure()
+        plt.title(columnsTitlesList[i])
+        input_file = 'informations\\boxplot' + (columnsTitlesList[i].replace(' ', '')) + '.png'
+        input_in_path = Path(__file__).parent / input_file
+        df.boxplot(
+            column=[column]
+        )
+        myFig.savefig(str(input_in_path), format="png")
+        i+=1
+
+def descriveToPNG(df):
+    input_file = 'informations\describe.png'
+    input_in_path = Path(__file__).parent / input_file
+    describe = df.describe()
+    df_styled = describe.style.background_gradient()
+    dfi.export(df_styled,str(input_in_path))
+
+def saveInfo():
+    input_file = 'data_file.csv'
+    input_in_path = Path(__file__).parent / input_file
+    df = pd.read_csv(str(input_in_path), header=0, sep=',')
+    mode(df)
+    descriveToPNG(df)
+    boxPlotToPNG(df)
 
 def calculate_age(created):
     dt = parser.parse(created)
@@ -14,7 +74,9 @@ def calculate_age(created):
     return delta.days
 
 def saveInCSV(resultArray):
-    data_file = open('data_file.csv', 'w', newline='', encoding='utf-8')
+    input_file = 'data_file.csv'
+    input_in_path = Path(__file__).parent / input_file
+    data_file = open(str(input_in_path), 'w', newline='', encoding='utf-8')
     csv_writer = csv.writer(data_file)
     null = None
     count = 0
@@ -73,7 +135,9 @@ def saveInCSV(resultArray):
     data_file.close()
 
 def saveJsonResult(resultArray):
-    with open('result.json', 'w', encoding='utf-8') as f:
+    input_file = 'data_file.json'
+    input_in_path = Path(__file__).parent / input_file
+    with open(str(input_in_path), 'w', encoding='utf-8') as f:
         json.dump(resultArray, f, ensure_ascii=False, indent=4)
 
 def setNextPage(hasNextPage, actualEndCursor, i, numberOfPages):
@@ -183,13 +247,14 @@ def paginationLoop():
     for internArr in resultArray:
         for x in internArr:
             newArray.append(x)
-    resultArray = newArray;
+    resultArray = newArray
 
     return resultArray
 
 def main():
-    resultArray = paginationLoop()
-    saveJsonResult(resultArray)
-    saveInCSV(resultArray)
+    #resultArray = paginationLoop()
+    #saveJsonResult(resultArray)
+    #saveInCSV(resultArray)
+    saveInfo()
 
 main()
