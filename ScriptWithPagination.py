@@ -189,9 +189,9 @@ def generateQuery(isFirstRequest, hasNextPage, actualEndCursor, dataPerPage, aft
                     updatedAt
                     releases(first: 1, orderBy: {field: CREATED_AT, direction: DESC}) {
                         totalCount
-                    nodes {
-                        createdAt
-                    }
+                        nodes {
+                            createdAt
+                        }
                     }
                     primaryLanguage {
                         name
