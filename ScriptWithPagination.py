@@ -252,9 +252,9 @@ def paginationLoop():
     return resultArray
 
 def main():
-    #resultArray = paginationLoop()
-    #saveJsonResult(resultArray)
-    #saveInCSV(resultArray)
+    resultArray = paginationLoop()
+    saveJsonResult(resultArray)
+    saveInCSV(resultArray)
     saveInfo()
 
 main()
