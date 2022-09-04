@@ -2,6 +2,7 @@ import os
 import pandas as pd
 from github import Github
 from pathlib import Path
+from multiprocessing.pool import ThreadPool as Pool
 
 from src.utils.clear import clearTerminal
 
@@ -45,29 +46,45 @@ def getData():
     input_in_path = Path(__file__).parent / repositories_file
     return pd.read_csv(str(input_in_path), header=0, sep=',')
 
+def runRepository(i, repository_row, repositories_fetched, github):
+    if rowIsEmpty(repository_row):
+        try:
+            actualRepository = github.get_repo(repository_row['nameWithOwner'])
+
+            #clearTerminal()
+            cloneRepository(actualRepository)
+            errorsOnJar = calculeCodeMetrics(actualRepository)
+
+            defineCodeMetricValues(repositories_fetched, i, actualRepository)
+            repositories_fetched.to_csv(str(root_path) + '\\data_with_code_metrics.csv', index=False, header=True)
+            
+            deleteRepository(actualRepository)
+
+            if errorsOnJar != 0:
+                raise Exception("\nError at CK metrics jar...")
+
+        except Exception as error:
+            print('\nError on repository index {}'.format(i))
+            print(error)
+
+pool_size = 20  # your "parallelness"
+
+# define worker function before a Pool is instantiated
+def worker(i, repository_row, repositories_fetched, github):
+    try:
+        runRepository(i, repository_row, repositories_fetched, github)
+    except:
+        print('error with repository')
+
 def generateCodeMetrics(ACCESS_TOKEN):
     github = Github("admited", ACCESS_TOKEN)
     repositories_fetched = getData()
 
+    pool = Pool(pool_size)
+
     for i, repository_row in repositories_fetched.iterrows():
-        if rowIsEmpty(repository_row):
-            try:
-                actualRepository = github.get_repo(repository_row['nameWithOwner'])
+        pool.apply_async(worker, (i, repository_row, repositories_fetched, github,))
 
-                clearTerminal()
-                cloneRepository(actualRepository)
-                errorsOnJar = calculeCodeMetrics(actualRepository)
-
-                defineCodeMetricValues(repositories_fetched, i, actualRepository)
-                repositories_fetched.to_csv(str(root_path) + '\\data_with_code_metrics.csv', index=False, header=True)
-                
-                deleteRepository(actualRepository)
-
-                if errorsOnJar != 0:
-                    raise Exception("\nError at CK metrics jar...")
-
-            except Exception as error:
-                print('\nError on repository index {}'.format(i))
-                print(error)
-
+    pool.close()
+    pool.join()
     print("\nCode metrics was calculated")
