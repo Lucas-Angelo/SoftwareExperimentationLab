@@ -1,10 +1,11 @@
-import requests
+
+import os
 import json
 import csv
+import requests
 import pandas as pd
 import dataframe_image as dfi
 import matplotlib.pyplot as plt
-import os
 from dateutil import parser
 from datetime import datetime
 from pathlib import Path
