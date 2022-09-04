@@ -32,8 +32,8 @@ def fetchRepositories(ACCESS_TOKEN):
     headers = {'Authorization': 'token ' + ACCESS_TOKEN, 'Content-Type': 'application/json'}
 
     isFirstRequest = True
-    dataPerPage = "1"
-    numberOfPages = 2
+    dataPerPage = "20"
+    numberOfPages = 50
     totalRepositories = int(dataPerPage) * numberOfPages
     
     hasNextPage = True
