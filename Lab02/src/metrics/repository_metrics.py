@@ -38,6 +38,6 @@ def descriveToPNG(df):
 
 def generateRepositoryMetrics(resultArray):
     df = pd.json_normalize(resultArray)
-    descriveToPNG(df)
+    #descriveToPNG(df)
     clearTerminal()
     boxPlotToPNG(df)
