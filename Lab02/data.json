@@ -1,0 +1,22 @@
+[
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMzI0NjQzOTU=",
+        "stargazerCount": 126885,
+        "nameWithOwner": "Snailclimb/JavaGuide",
+        "url": "https://github.com/Snailclimb/JavaGuide",
+        "createdAt": "2018-05-07T13:27:00Z",
+        "releases": {
+            "totalCount": 0
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyMjc5MDQ4OA==",
+        "stargazerCount": 76559,
+        "nameWithOwner": "iluwatar/java-design-patterns",
+        "url": "https://github.com/iluwatar/java-design-patterns",
+        "createdAt": "2014-08-09T16:45:18Z",
+        "releases": {
+            "totalCount": 0
+        }
+    }
+]
