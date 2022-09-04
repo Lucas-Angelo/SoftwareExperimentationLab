@@ -1,2 +1,20 @@
-repository,errors
-,
+repository,errors,error
+,,
+alibaba-fastjson,,'utf-8' codec can't decode byte 0xe5 in position 118156: invalid continuation byte
+Anuken-Mindustry,,No columns to parse from file
+openjdk-jdk,,No columns to parse from file
+projectlombok-lombok,,No columns to parse from file
+realm-realm-java,,'utf-8' codec can't decode byte 0xc1 in position 186854: invalid start byte
+Grasscutters-Grasscutter,,No columns to parse from file
+aosp-mirror-platform_frameworks_base,,No columns to parse from file
+checkstyle-checkstyle,,No columns to parse from file
+yuanguangxin-LeetCode,,'utf-8' codec can't decode byte 0xe9 in position 785: invalid continuation byte
+trinodb-trino,,No columns to parse from file
+google-j2objc,,No columns to parse from file
+kiegroup-drools,,'utf-8' codec can't decode byte 0xc4 in position 87361: invalid continuation byte
+awangdev-LintCode,,'utf-8' codec can't decode byte 0xe9 in position 8072: invalid continuation byte
+reactor-reactor-core,,No columns to parse from file
+Col-E-Recaf,,No columns to parse from file
+bjmashibing-InternetArchitect,,'utf-8' codec can't decode byte 0xa0 in position 2633: invalid start byte
+alibaba-dragonwell8,,No columns to parse from file
+mybatis-spring-boot-starter,,'utf-8' codec can't decode bytes in position 67522-67523: invalid continuation byte
