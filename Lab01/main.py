@@ -8,12 +8,10 @@ from collections import Counter
 from dateutil import parser
 from datetime import datetime
 from pathlib import Path
+from dotenv import dotenv_values
 
-input_file = '.env'
-input_in_path = Path(__file__).parent / input_file
-with open(str(input_in_path), 'r') as file:
-    access_token = file.read().replace('\n', '')
-ACCESS_TOKEN = access_token
+config = dotenv_values(".env")
+ACCESS_TOKEN = config["ACCESS_TOKEN"]
 
 def mode(df):
     input_file = 'informations\\mode.txt'
