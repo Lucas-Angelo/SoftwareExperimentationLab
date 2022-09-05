@@ -8,6 +8,7 @@ from multiprocessing.pool import ThreadPool as Pool
 from src.utils.clear import clearTerminal
 
 csv_writer_lock = threading.Lock()
+pool_size = 6
 
 root_path = Path(__file__).parent / "..\\..\\"
 repositories_path = Path(__file__).parent / "..\\..\\repositories"
@@ -122,8 +123,6 @@ def runRepository(i, repository_row, repositories_fetched, github):
         except Exception as error:
             saveErrors((actualRepository.owner.login + "-" + actualRepository.name), error)
 
-pool_size = 6
-
 def worker(i, repository_row, repositories_fetched, github):
     try:
         runRepository(i, repository_row, repositories_fetched, github)
@@ -132,19 +131,21 @@ def worker(i, repository_row, repositories_fetched, github):
 
 def generateCodeMetrics(ACCESS_TOKEN):
     github = Github("admited", ACCESS_TOKEN)
+    
     resetCounter()
     resetErrors()
     repositories_fetched = getData()
-
     pool = Pool(pool_size)
-
     for i, repository_row in repositories_fetched.iterrows():
         pool.apply_async(worker, (i, repository_row, repositories_fetched, github,))
-        #runRepository(i, repository_row, repositories_fetched, github)
-    
     pool.close()
     pool.join()
+    deleteAllRepositories()
 
+    resetErrors()
+    repositories_fetched = getData()
+    for i, repository_row in repositories_fetched.iterrows():
+        runRepository(i, repository_row, repositories_fetched, github)
     deleteAllRepositories()
 
     print("\nCode metrics was calculated")
