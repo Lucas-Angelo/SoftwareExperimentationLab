@@ -9,10 +9,14 @@ config = dotenv_values(".env")
 ACCESS_TOKEN = config["ACCESS_TOKEN"]
 
 def main():
-    resultArray = fetchRepositories(ACCESS_TOKEN)
-    saveData(resultArray)
-    print("All repositories were fetched and saved in csv file")
-    generateRepositoryMetrics(resultArray)
-    generateCodeMetrics(ACCESS_TOKEN)
+    val = input("Do you want fetch repositories from Github? (y/n): ")
+    if(val=="y"):
+        resultArray = fetchRepositories(ACCESS_TOKEN)
+        saveData(resultArray)
+        generateRepositoryMetrics(resultArray)
+        print("All repositories were fetched and saved in csv file")
+    val = input("Do you want calculate code metrics? (y/n): ")
+    if(val=="y"):
+        generateCodeMetrics(ACCESS_TOKEN)
 
 main()
