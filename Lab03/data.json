@@ -1,0 +1,1002 @@
+[
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyODQ1NzgyMw==",
+        "nameWithOwner": "freeCodeCamp/freeCodeCamp",
+        "mergedPullRequests": {
+            "totalCount": 18282
+        },
+        "closedPullRequests": {
+            "totalCount": 12394
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxNzc3MzY1MzM=",
+        "nameWithOwner": "996icu/996.ICU",
+        "mergedPullRequests": {
+            "totalCount": 1063
+        },
+        "closedPullRequests": {
+            "totalCount": 867
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMzQ5MTg5NQ==",
+        "nameWithOwner": "EbookFoundation/free-programming-books",
+        "mergedPullRequests": {
+            "totalCount": 4541
+        },
+        "closedPullRequests": {
+            "totalCount": 1703
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk2MDQ5MzEwMQ==",
+        "nameWithOwner": "jwasham/coding-interview-university",
+        "mergedPullRequests": {
+            "totalCount": 334
+        },
+        "closedPullRequests": {
+            "totalCount": 479
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyMTczNzQ2NQ==",
+        "nameWithOwner": "sindresorhus/awesome",
+        "mergedPullRequests": {
+            "totalCount": 593
+        },
+        "closedPullRequests": {
+            "totalCount": 1201
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk4NTA3NzU1OA==",
+        "nameWithOwner": "kamranahmedse/developer-roadmap",
+        "mergedPullRequests": {
+            "totalCount": 712
+        },
+        "closedPullRequests": {
+            "totalCount": 264
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk1NDM0Njc5OQ==",
+        "nameWithOwner": "public-apis/public-apis",
+        "mergedPullRequests": {
+            "totalCount": 1870
+        },
+        "closedPullRequests": {
+            "totalCount": 907
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTczMDM0Mg==",
+        "nameWithOwner": "vuejs/vue",
+        "mergedPullRequests": {
+            "totalCount": 1100
+        },
+        "closedPullRequests": {
+            "totalCount": 947
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk4MzIyMjQ0MQ==",
+        "nameWithOwner": "donnemartin/system-design-primer",
+        "mergedPullRequests": {
+            "totalCount": 193
+        },
+        "closedPullRequests": {
+            "totalCount": 79
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+        "nameWithOwner": "facebook/react",
+        "mergedPullRequests": {
+            "totalCount": 8520
+        },
+        "closedPullRequests": {
+            "totalCount": 3807
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk0NTcxNzI1MA==",
+        "nameWithOwner": "tensorflow/tensorflow",
+        "mergedPullRequests": {
+            "totalCount": 15147
+        },
+        "closedPullRequests": {
+            "totalCount": 6430
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMzI3NTA3MjQ=",
+        "nameWithOwner": "codecrafters-io/build-your-own-x",
+        "mergedPullRequests": {
+            "totalCount": 94
+        },
+        "closedPullRequests": {
+            "totalCount": 70
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyMTI2MjQ0",
+        "nameWithOwner": "twbs/bootstrap",
+        "mergedPullRequests": {
+            "totalCount": 7852
+        },
+        "closedPullRequests": {
+            "totalCount": 5952
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxNDQ0MDI3MA==",
+        "nameWithOwner": "getify/You-Dont-Know-JS",
+        "mergedPullRequests": {
+            "totalCount": 355
+        },
+        "closedPullRequests": {
+            "totalCount": 459
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMjEzOTU1MTA=",
+        "nameWithOwner": "CyC2018/CS-Notes",
+        "mergedPullRequests": {
+            "totalCount": 375
+        },
+        "closedPullRequests": {
+            "totalCount": 159
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMjY1NzcyNjA=",
+        "nameWithOwner": "trekhleb/javascript-algorithms",
+        "mergedPullRequests": {
+            "totalCount": 268
+        },
+        "closedPullRequests": {
+            "totalCount": 173
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyOTExMzc=",
+        "nameWithOwner": "ohmyzsh/ohmyzsh",
+        "mergedPullRequests": {
+            "totalCount": 2709
+        },
+        "closedPullRequests": {
+            "totalCount": 3410
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk2MzQ3NjMzNw==",
+        "nameWithOwner": "TheAlgorithms/Python",
+        "mergedPullRequests": {
+            "totalCount": 1878
+        },
+        "closedPullRequests": {
+            "totalCount": 3084
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkzMTc5MjgyNA==",
+        "nameWithOwner": "flutter/flutter",
+        "mergedPullRequests": {
+            "totalCount": 27494
+        },
+        "closedPullRequests": {
+            "totalCount": 10708
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyMTI4OTExMA==",
+        "nameWithOwner": "vinta/awesome-python",
+        "mergedPullRequests": {
+            "totalCount": 527
+        },
+        "closedPullRequests": {
+            "totalCount": 899
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMDYyODk3",
+        "nameWithOwner": "github/gitignore",
+        "mergedPullRequests": {
+            "totalCount": 1522
+        },
+        "closedPullRequests": {
+            "totalCount": 2240
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyMzI1Mjk4",
+        "nameWithOwner": "torvalds/linux",
+        "mergedPullRequests": {
+            "totalCount": 9
+        },
+        "closedPullRequests": {
+            "totalCount": 439
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk0MTg4MTkwMA==",
+        "nameWithOwner": "microsoft/vscode",
+        "mergedPullRequests": {
+            "totalCount": 11972
+        },
+        "closedPullRequests": {
+            "totalCount": 3217
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMzI0NjQzOTU=",
+        "nameWithOwner": "Snailclimb/JavaGuide",
+        "mergedPullRequests": {
+            "totalCount": 721
+        },
+        "closedPullRequests": {
+            "totalCount": 237
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk2NDk4NDky",
+        "nameWithOwner": "airbnb/javascript",
+        "mergedPullRequests": {
+            "totalCount": 781
+        },
+        "closedPullRequests": {
+            "totalCount": 537
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMjM0NTg1NTE=",
+        "nameWithOwner": "jackfrued/Python-100-Days",
+        "mergedPullRequests": {
+            "totalCount": 12
+        },
+        "closedPullRequests": {
+            "totalCount": 110
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxOTQxNTA2NA==",
+        "nameWithOwner": "ossu/computer-science",
+        "mergedPullRequests": {
+            "totalCount": 223
+        },
+        "closedPullRequests": {
+            "totalCount": 149
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMDM5NTIw",
+        "nameWithOwner": "ytdl-org/youtube-dl",
+        "mergedPullRequests": {
+            "totalCount": 1571
+        },
+        "closedPullRequests": {
+            "totalCount": 2270
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkzNTk1NTY2Ng==",
+        "nameWithOwner": "jlevy/the-art-of-command-line",
+        "mergedPullRequests": {
+            "totalCount": 304
+        },
+        "closedPullRequests": {
+            "totalCount": 135
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyNDE1NzYyNzA=",
+        "nameWithOwner": "labuladong/fucking-algorithm",
+        "mergedPullRequests": {
+            "totalCount": 209
+        },
+        "closedPullRequests": {
+            "totalCount": 181
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyOTAyODc3NQ==",
+        "nameWithOwner": "facebook/react-native",
+        "mergedPullRequests": {
+            "totalCount": 647
+        },
+        "closedPullRequests": {
+            "totalCount": 10231
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkzNjYzMzM3MA==",
+        "nameWithOwner": "awesome-selfhosted/awesome-selfhosted",
+        "mergedPullRequests": {
+            "totalCount": 1961
+        },
+        "closedPullRequests": {
+            "totalCount": 476
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyMzA5Njk1OQ==",
+        "nameWithOwner": "golang/go",
+        "mergedPullRequests": {
+            "totalCount": 1
+        },
+        "closedPullRequests": {
+            "totalCount": 2273
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk5Mzg0MjY3",
+        "nameWithOwner": "electron/electron",
+        "mergedPullRequests": {
+            "totalCount": 15732
+        },
+        "closedPullRequests": {
+            "totalCount": 1979
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTI1MDcwODY=",
+        "nameWithOwner": "30-seconds/30-seconds-of-code",
+        "mergedPullRequests": {
+            "totalCount": 753
+        },
+        "closedPullRequests": {
+            "totalCount": 729
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk5NDMxNDk=",
+        "nameWithOwner": "d3/d3",
+        "mergedPullRequests": {
+            "totalCount": 439
+        },
+        "closedPullRequests": {
+            "totalCount": 675
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk2MzUzNzI0OQ==",
+        "nameWithOwner": "facebook/create-react-app",
+        "mergedPullRequests": {
+            "totalCount": 1942
+        },
+        "closedPullRequests": {
+            "totalCount": 1748
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyMzA4ODc0MA==",
+        "nameWithOwner": "axios/axios",
+        "mergedPullRequests": {
+            "totalCount": 599
+        },
+        "closedPullRequests": {
+            "totalCount": 509
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxNDA5ODA2OQ==",
+        "nameWithOwner": "justjavac/free-programming-books-zh_CN",
+        "mergedPullRequests": {
+            "totalCount": 280
+        },
+        "closedPullRequests": {
+            "totalCount": 144
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk3MDEwNzc4Ng==",
+        "nameWithOwner": "vercel/next.js",
+        "mergedPullRequests": {
+            "totalCount": 10040
+        },
+        "closedPullRequests": {
+            "totalCount": 2512
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyMDU4MDQ5OA==",
+        "nameWithOwner": "kubernetes/kubernetes",
+        "mergedPullRequests": {
+            "totalCount": 52634
+        },
+        "closedPullRequests": {
+            "totalCount": 17537
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyNzE5Mzc3OQ==",
+        "nameWithOwner": "nodejs/node",
+        "mergedPullRequests": {
+            "totalCount": 4869
+        },
+        "closedPullRequests": {
+            "totalCount": 23101
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyMTU0MDc1OQ==",
+        "nameWithOwner": "avelino/awesome-go",
+        "mergedPullRequests": {
+            "totalCount": 2818
+        },
+        "closedPullRequests": {
+            "totalCount": 1097
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk1NzYyMDE=",
+        "nameWithOwner": "mrdoob/three.js",
+        "mergedPullRequests": {
+            "totalCount": 10024
+        },
+        "closedPullRequests": {
+            "totalCount": 3040
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMzM0NDIzODQ=",
+        "nameWithOwner": "denoland/deno",
+        "mergedPullRequests": {
+            "totalCount": 6991
+        },
+        "closedPullRequests": {
+            "totalCount": 1712
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMDAwNjA5MTI=",
+        "nameWithOwner": "microsoft/terminal",
+        "mergedPullRequests": {
+            "totalCount": 2885
+        },
+        "closedPullRequests": {
+            "totalCount": 338
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyMDkyOTAyNQ==",
+        "nameWithOwner": "microsoft/TypeScript",
+        "mergedPullRequests": {
+            "totalCount": 12209
+        },
+        "closedPullRequests": {
+            "totalCount": 2687
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyNDE5NTMzOQ==",
+        "nameWithOwner": "angular/angular",
+        "mergedPullRequests": {
+            "totalCount": 3222
+        },
+        "closedPullRequests": {
+            "totalCount": 18890
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkzNDUyNjg4NA==",
+        "nameWithOwner": "ant-design/ant-design",
+        "mergedPullRequests": {
+            "totalCount": 9313
+        },
+        "closedPullRequests": {
+            "totalCount": 2516
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMDM2MzM5ODQ=",
+        "nameWithOwner": "goldbergyoni/nodebestpractices",
+        "mergedPullRequests": {
+            "totalCount": 737
+        },
+        "closedPullRequests": {
+            "totalCount": 130
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyMzA4MzE1Ng==",
+        "nameWithOwner": "mui/material-ui",
+        "mergedPullRequests": {
+            "totalCount": 14183
+        },
+        "closedPullRequests": {
+            "totalCount": 3070
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk5MDc5NjY2Mw==",
+        "nameWithOwner": "puppeteer/puppeteer",
+        "mergedPullRequests": {
+            "totalCount": 2687
+        },
+        "closedPullRequests": {
+            "totalCount": 643
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk2MjYwNzIyNw==",
+        "nameWithOwner": "yangshun/tech-interview-handbook",
+        "mergedPullRequests": {
+            "totalCount": 181
+        },
+        "closedPullRequests": {
+            "totalCount": 52
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMzgzOTMxMzk=",
+        "nameWithOwner": "trimstray/the-book-of-secret-knowledge",
+        "mergedPullRequests": {
+            "totalCount": 122
+        },
+        "closedPullRequests": {
+            "totalCount": 71
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxODQ0NTYyNTE=",
+        "nameWithOwner": "microsoft/PowerToys",
+        "mergedPullRequests": {
+            "totalCount": 3457
+        },
+        "closedPullRequests": {
+            "totalCount": 409
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk4ODQ2NDcwNA==",
+        "nameWithOwner": "PanJiaChen/vue-element-admin",
+        "mergedPullRequests": {
+            "totalCount": 313
+        },
+        "closedPullRequests": {
+            "totalCount": 156
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk4ODAxMTkwOA==",
+        "nameWithOwner": "practical-tutorials/project-based-learning",
+        "mergedPullRequests": {
+            "totalCount": 179
+        },
+        "closedPullRequests": {
+            "totalCount": 112
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyMjc5MDQ4OA==",
+        "nameWithOwner": "iluwatar/java-design-patterns",
+        "mergedPullRequests": {
+            "totalCount": 863
+        },
+        "closedPullRequests": {
+            "totalCount": 400
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyNTYxNTgy",
+        "nameWithOwner": "animate-css/animate.css",
+        "mergedPullRequests": {
+            "totalCount": 313
+        },
+        "closedPullRequests": {
+            "totalCount": 423
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk1MTExNzgzNw==",
+        "nameWithOwner": "tensorflow/models",
+        "mergedPullRequests": {
+            "totalCount": 2252
+        },
+        "closedPullRequests": {
+            "totalCount": 1239
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk1NDE3MzU5Mw==",
+        "nameWithOwner": "storybookjs/storybook",
+        "mergedPullRequests": {
+            "totalCount": 6936
+        },
+        "closedPullRequests": {
+            "totalCount": 1767
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkzMzYxNDMwNA==",
+        "nameWithOwner": "nvbn/thefuck",
+        "mergedPullRequests": {
+            "totalCount": 478
+        },
+        "closedPullRequests": {
+            "totalCount": 109
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk3NDc5MTM2Ng==",
+        "nameWithOwner": "ryanmcdermott/clean-code-javascript",
+        "mergedPullRequests": {
+            "totalCount": 148
+        },
+        "closedPullRequests": {
+            "totalCount": 94
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk3MjQ3MTI=",
+        "nameWithOwner": "rust-lang/rust",
+        "mergedPullRequests": {
+            "totalCount": 42788
+        },
+        "closedPullRequests": {
+            "totalCount": 13424
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxNTUyMjA2NDE=",
+        "nameWithOwner": "huggingface/transformers",
+        "mergedPullRequests": {
+            "totalCount": 7325
+        },
+        "closedPullRequests": {
+            "totalCount": 1651
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxODYzMzI5",
+        "nameWithOwner": "laravel/laravel",
+        "mergedPullRequests": {
+            "totalCount": 1449
+        },
+        "closedPullRequests": {
+            "totalCount": 2881
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTE1ODM1OTM=",
+        "nameWithOwner": "Genymobile/scrcpy",
+        "mergedPullRequests": {
+            "totalCount": 61
+        },
+        "closedPullRequests": {
+            "totalCount": 234
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkzNDcwNDcx",
+        "nameWithOwner": "FortAwesome/Font-Awesome",
+        "mergedPullRequests": {
+            "totalCount": 193
+        },
+        "closedPullRequests": {
+            "totalCount": 433
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk1MjYzMTg0MQ==",
+        "nameWithOwner": "gothinkster/realworld",
+        "mergedPullRequests": {
+            "totalCount": 229
+        },
+        "closedPullRequests": {
+            "totalCount": 104
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxNTE4MzQwNjI=",
+        "nameWithOwner": "doocs/advanced-java",
+        "mergedPullRequests": {
+            "totalCount": 74
+        },
+        "closedPullRequests": {
+            "totalCount": 39
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk0MTY0NDgy",
+        "nameWithOwner": "django/django",
+        "mergedPullRequests": {
+            "totalCount": 7671
+        },
+        "closedPullRequests": {
+            "totalCount": 8256
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyNjUwMDc4Nw==",
+        "nameWithOwner": "tonsky/FiraCode",
+        "mergedPullRequests": {
+            "totalCount": 123
+        },
+        "closedPullRequests": {
+            "totalCount": 45
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk0NDU3MTcxOA==",
+        "nameWithOwner": "vuejs/awesome-vue",
+        "mergedPullRequests": {
+            "totalCount": 3347
+        },
+        "closedPullRequests": {
+            "totalCount": 338
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTgxOTI3",
+        "nameWithOwner": "bitcoin/bitcoin",
+        "mergedPullRequests": {
+            "totalCount": 12202
+        },
+        "closedPullRequests": {
+            "totalCount": 5493
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxNTIwNDg2MA==",
+        "nameWithOwner": "papers-we-love/papers-we-love",
+        "mergedPullRequests": {
+            "totalCount": 405
+        },
+        "closedPullRequests": {
+            "totalCount": 79
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk3NjkxNjMx",
+        "nameWithOwner": "moby/moby",
+        "mergedPullRequests": {
+            "totalCount": 17606
+        },
+        "closedPullRequests": {
+            "totalCount": 4574
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk1MTA4MDUx",
+        "nameWithOwner": "opencv/opencv",
+        "mergedPullRequests": {
+            "totalCount": 10760
+        },
+        "closedPullRequests": {
+            "totalCount": 2465
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxNDc0NzU5OA==",
+        "nameWithOwner": "typicode/json-server",
+        "mergedPullRequests": {
+            "totalCount": 100
+        },
+        "closedPullRequests": {
+            "totalCount": 143
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk2Mjk2Nzkw",
+        "nameWithOwner": "spring-projects/spring-boot",
+        "mergedPullRequests": {
+            "totalCount": 41
+        },
+        "closedPullRequests": {
+            "totalCount": 5314
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyMDkwNDQzNw==",
+        "nameWithOwner": "gin-gonic/gin",
+        "mergedPullRequests": {
+            "totalCount": 858
+        },
+        "closedPullRequests": {
+            "totalCount": 415
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMDEyOTY4ODE=",
+        "nameWithOwner": "mtdvio/every-programmer-should-know",
+        "mergedPullRequests": {
+            "totalCount": 86
+        },
+        "closedPullRequests": {
+            "totalCount": 39
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTE4MDY4Nw==",
+        "nameWithOwner": "gohugoio/hugo",
+        "mergedPullRequests": {
+            "totalCount": 1783
+        },
+        "closedPullRequests": {
+            "totalCount": 2227
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk3NDI5MzMyMQ==",
+        "nameWithOwner": "sveltejs/svelte",
+        "mergedPullRequests": {
+            "totalCount": 2416
+        },
+        "closedPullRequests": {
+            "totalCount": 582
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxODYxNDU4",
+        "nameWithOwner": "hakimel/reveal.js",
+        "mergedPullRequests": {
+            "totalCount": 365
+        },
+        "closedPullRequests": {
+            "totalCount": 531
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMDcxMTE0MjE=",
+        "nameWithOwner": "thedaviddias/Front-End-Checklist",
+        "mergedPullRequests": {
+            "totalCount": 172
+        },
+        "closedPullRequests": {
+            "totalCount": 115
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkzNjc4NzMx",
+        "nameWithOwner": "webpack/webpack",
+        "mergedPullRequests": {
+            "totalCount": 4180
+        },
+        "closedPullRequests": {
+            "totalCount": 1545
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk1MDc3NzU=",
+        "nameWithOwner": "elastic/elasticsearch",
+        "mergedPullRequests": {
+            "totalCount": 51252
+        },
+        "closedPullRequests": {
+            "totalCount": 7695
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk2MTIyMzA=",
+        "nameWithOwner": "nvm-sh/nvm",
+        "mergedPullRequests": {
+            "totalCount": 654
+        },
+        "closedPullRequests": {
+            "totalCount": 260
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMDYwMTczNDM=",
+        "nameWithOwner": "tailwindlabs/tailwindcss",
+        "mergedPullRequests": {
+            "totalCount": 1514
+        },
+        "closedPullRequests": {
+            "totalCount": 394
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMDc0NDE4Mw==",
+        "nameWithOwner": "netdata/netdata",
+        "mergedPullRequests": {
+            "totalCount": 5766
+        },
+        "closedPullRequests": {
+            "totalCount": 724
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk0NDgzODk0OQ==",
+        "nameWithOwner": "apple/swift",
+        "mergedPullRequests": {
+            "totalCount": 39265
+        },
+        "closedPullRequests": {
+            "totalCount": 5035
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk1OTY4OTI=",
+        "nameWithOwner": "pallets/flask",
+        "mergedPullRequests": {
+            "totalCount": 1404
+        },
+        "closedPullRequests": {
+            "totalCount": 857
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk0ODM3ODk0Nw==",
+        "nameWithOwner": "fatedier/frp",
+        "mergedPullRequests": {
+            "totalCount": 392
+        },
+        "closedPullRequests": {
+            "totalCount": 198
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkzMjQ4NDM4MQ==",
+        "nameWithOwner": "ripienaar/free-for-dev",
+        "mergedPullRequests": {
+            "totalCount": 1959
+        },
+        "closedPullRequests": {
+            "totalCount": 504
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk0NjAwNzg=",
+        "nameWithOwner": "angular/angular.js",
+        "mergedPullRequests": {
+            "totalCount": 789
+        },
+        "closedPullRequests": {
+            "totalCount": 7133
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk2NTYwMDk3NQ==",
+        "nameWithOwner": "pytorch/pytorch",
+        "mergedPullRequests": {
+            "totalCount": 5180
+        },
+        "closedPullRequests": {
+            "totalCount": 51256
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkzNjUzNTE1Ng==",
+        "nameWithOwner": "reduxjs/redux",
+        "mergedPullRequests": {
+            "totalCount": 1551
+        },
+        "closedPullRequests": {
+            "totalCount": 788
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkzMjI4NTA1",
+        "nameWithOwner": "atom/atom",
+        "mergedPullRequests": {
+            "totalCount": 3932
+        },
+        "closedPullRequests": {
+            "totalCount": 1305
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxMzM0MzY5",
+        "nameWithOwner": "resume/resume.github.com",
+        "mergedPullRequests": {
+            "totalCount": 84
+        },
+        "closedPullRequests": {
+            "totalCount": 84
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkyMzcxNTk=",
+        "nameWithOwner": "expressjs/express",
+        "mergedPullRequests": {
+            "totalCount": 257
+        },
+        "closedPullRequests": {
+            "totalCount": 807
+        }
+    }
+]
