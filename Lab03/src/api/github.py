@@ -25,11 +25,13 @@ def getHasNextPage(resultFromRequest):
     return hasNextPage
 
 def sendRequest(query, url, headers):
-    request = requests.post(url=url, headers=headers, json=query)
-    if request.status_code == 200:
-        return request.text
-    else:
-        raise Exception("Query failed to run returning code of {}. {}".format(request.status_code, query))
+    request = None
+    while(request == None or request.status_code != 200):
+        request = requests.post(url=url, headers=headers, json=query)
+        if request.status_code == 200:
+            return request.text
+        else:
+            print("Trying again because query failed to run returning code of {}. {}".format(request.status_code, query))
 
 def fetchRepositories(ACCESS_TOKEN):
     url = 'https://api.github.com/graphql'

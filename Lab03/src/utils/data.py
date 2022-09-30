@@ -11,6 +11,8 @@ def saveInCSV(resultArray):
     count = 0
     for rep in resultArray:
 
+        rep['totalPullRequests'] = None
+
         if count == 0:
             # Writing headers of CSV file
             header = rep.keys()
@@ -19,6 +21,7 @@ def saveInCSV(resultArray):
         
         rep['mergedPullRequests'] = rep['mergedPullRequests']['totalCount']
         rep['closedPullRequests'] = rep['closedPullRequests']['totalCount']
+        rep['totalPullRequests'] = str(int(rep['mergedPullRequests'])+int(rep['closedPullRequests']))
 
         # Writing data of CSV file
         csv_writer.writerow(rep.values())
