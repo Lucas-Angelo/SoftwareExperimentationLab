@@ -1,7 +1,7 @@
 from dotenv import dotenv_values
 
-from src.api.github import fetchRepositories
-from src.utils.data import saveData
+from src.api.getRepositories import fetchRepositories
+from src.utils.saveRepositoriesCSV import saveData
 
 config = dotenv_values(".env")
 ACCESS_TOKEN = config["ACCESS_TOKEN"]

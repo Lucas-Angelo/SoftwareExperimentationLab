@@ -1,4 +1,4 @@
-def generateQuery(dataPerPage, endCursor):
+def getRepositoriesGraphQL(dataPerPage, endCursor):
     if(endCursor != "null"):
         after = 'after: "' + endCursor + '"'
     else:

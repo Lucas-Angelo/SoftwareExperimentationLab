@@ -1,10 +1,8 @@
 import json
-from operator import le
-from re import L
 import requests
 
 from src.utils.clear import clearTerminal
-from src.utils.graphql import generateQuery
+from src.utils.getRepositoriesGraphQL import getRepositoriesGraphQL
 
 def repHasOneHundredPR(node):
     hasOneHundredPR = False
@@ -45,7 +43,7 @@ def fetchRepositories(ACCESS_TOKEN):
     resultArray = []
     i = 0
     while hasNextPage and len(resultArray) < 100:
-        query = generateQuery(dataPerPage, endCursor)
+        query = getRepositoriesGraphQL(dataPerPage, endCursor)
 
         resultFromRequest = sendRequest(query, url, headers)
 
@@ -62,7 +60,5 @@ def fetchRepositories(ACCESS_TOKEN):
         clearTerminal()
         print("Number of repositories fetched: " + str(len(resultArray)) + "/" + str(totalRepositories))
         i=i+1
-
-    print(len(resultArray))
 
     return resultArray
