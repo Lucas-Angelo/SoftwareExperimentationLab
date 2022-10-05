@@ -20,7 +20,10 @@ def getRepositoriesGraphQL(dataPerPage, endCursor):
           node {
             ... on Repository {
               id
-              nameWithOwner
+              name
+              owner {
+                login
+              }
               mergedPullRequests: pullRequests(states: MERGED, first: 1) {
                 totalCount
               }

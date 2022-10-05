@@ -1,17 +1,23 @@
 [
     {
         "id": "MDEwOlJlcG9zaXRvcnkyODQ1NzgyMw==",
-        "nameWithOwner": "freeCodeCamp/freeCodeCamp",
+        "name": "freeCodeCamp",
+        "owner": {
+            "login": "freeCodeCamp"
+        },
         "mergedPullRequests": {
-            "totalCount": 18297
+            "totalCount": 18319
         },
         "closedPullRequests": {
-            "totalCount": 12401
+            "totalCount": 12456
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxNzc3MzY1MzM=",
-        "nameWithOwner": "996icu/996.ICU",
+        "name": "996.ICU",
+        "owner": {
+            "login": "996icu"
+        },
         "mergedPullRequests": {
             "totalCount": 1063
         },
@@ -21,47 +27,62 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMzQ5MTg5NQ==",
-        "nameWithOwner": "EbookFoundation/free-programming-books",
+        "name": "free-programming-books",
+        "owner": {
+            "login": "EbookFoundation"
+        },
         "mergedPullRequests": {
-            "totalCount": 4543
+            "totalCount": 4636
         },
         "closedPullRequests": {
-            "totalCount": 1711
+            "totalCount": 1795
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk2MDQ5MzEwMQ==",
-        "nameWithOwner": "jwasham/coding-interview-university",
+        "name": "coding-interview-university",
+        "owner": {
+            "login": "jwasham"
+        },
         "mergedPullRequests": {
-            "totalCount": 334
+            "totalCount": 335
         },
         "closedPullRequests": {
-            "totalCount": 479
+            "totalCount": 480
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyMTczNzQ2NQ==",
-        "nameWithOwner": "sindresorhus/awesome",
+        "name": "awesome",
+        "owner": {
+            "login": "sindresorhus"
+        },
         "mergedPullRequests": {
             "totalCount": 593
         },
         "closedPullRequests": {
-            "totalCount": 1201
+            "totalCount": 1202
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk4NTA3NzU1OA==",
-        "nameWithOwner": "kamranahmedse/developer-roadmap",
+        "name": "developer-roadmap",
+        "owner": {
+            "login": "kamranahmedse"
+        },
         "mergedPullRequests": {
-            "totalCount": 719
+            "totalCount": 736
         },
         "closedPullRequests": {
-            "totalCount": 265
+            "totalCount": 278
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk1NDM0Njc5OQ==",
-        "nameWithOwner": "public-apis/public-apis",
+        "name": "public-apis",
+        "owner": {
+            "login": "public-apis"
+        },
         "mergedPullRequests": {
             "totalCount": 1870
         },
@@ -71,17 +92,23 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMTczMDM0Mg==",
-        "nameWithOwner": "vuejs/vue",
+        "name": "vue",
+        "owner": {
+            "login": "vuejs"
+        },
         "mergedPullRequests": {
             "totalCount": 1100
         },
         "closedPullRequests": {
-            "totalCount": 949
+            "totalCount": 950
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk4MzIyMjQ0MQ==",
-        "nameWithOwner": "donnemartin/system-design-primer",
+        "name": "system-design-primer",
+        "owner": {
+            "login": "donnemartin"
+        },
         "mergedPullRequests": {
             "totalCount": 193
         },
@@ -91,19 +118,25 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
-        "nameWithOwner": "facebook/react",
+        "name": "react",
+        "owner": {
+            "login": "facebook"
+        },
         "mergedPullRequests": {
-            "totalCount": 8532
+            "totalCount": 8534
         },
         "closedPullRequests": {
-            "totalCount": 3823
+            "totalCount": 3824
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk0NTcxNzI1MA==",
-        "nameWithOwner": "tensorflow/tensorflow",
+        "name": "tensorflow",
+        "owner": {
+            "login": "tensorflow"
+        },
         "mergedPullRequests": {
-            "totalCount": 15159
+            "totalCount": 15160
         },
         "closedPullRequests": {
             "totalCount": 6433
@@ -111,7 +144,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMzI3NTA3MjQ=",
-        "nameWithOwner": "codecrafters-io/build-your-own-x",
+        "name": "build-your-own-x",
+        "owner": {
+            "login": "codecrafters-io"
+        },
         "mergedPullRequests": {
             "totalCount": 94
         },
@@ -121,17 +157,23 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyMTI2MjQ0",
-        "nameWithOwner": "twbs/bootstrap",
+        "name": "bootstrap",
+        "owner": {
+            "login": "twbs"
+        },
         "mergedPullRequests": {
-            "totalCount": 7852
+            "totalCount": 7858
         },
         "closedPullRequests": {
-            "totalCount": 5952
+            "totalCount": 5953
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxNDQ0MDI3MA==",
-        "nameWithOwner": "getify/You-Dont-Know-JS",
+        "name": "You-Dont-Know-JS",
+        "owner": {
+            "login": "getify"
+        },
         "mergedPullRequests": {
             "totalCount": 355
         },
@@ -141,7 +183,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMjEzOTU1MTA=",
-        "nameWithOwner": "CyC2018/CS-Notes",
+        "name": "CS-Notes",
+        "owner": {
+            "login": "CyC2018"
+        },
         "mergedPullRequests": {
             "totalCount": 375
         },
@@ -151,67 +196,88 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMjY1NzcyNjA=",
-        "nameWithOwner": "trekhleb/javascript-algorithms",
+        "name": "javascript-algorithms",
+        "owner": {
+            "login": "trekhleb"
+        },
         "mergedPullRequests": {
             "totalCount": 268
         },
         "closedPullRequests": {
-            "totalCount": 174
+            "totalCount": 175
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyOTExMzc=",
-        "nameWithOwner": "ohmyzsh/ohmyzsh",
+        "name": "ohmyzsh",
+        "owner": {
+            "login": "ohmyzsh"
+        },
         "mergedPullRequests": {
             "totalCount": 2709
         },
         "closedPullRequests": {
-            "totalCount": 3411
+            "totalCount": 3416
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk2MzQ3NjMzNw==",
-        "nameWithOwner": "TheAlgorithms/Python",
+        "name": "Python",
+        "owner": {
+            "login": "TheAlgorithms"
+        },
         "mergedPullRequests": {
-            "totalCount": 1878
+            "totalCount": 1889
         },
         "closedPullRequests": {
-            "totalCount": 3092
+            "totalCount": 3416
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkzMTc5MjgyNA==",
-        "nameWithOwner": "flutter/flutter",
+        "name": "flutter",
+        "owner": {
+            "login": "flutter"
+        },
         "mergedPullRequests": {
-            "totalCount": 27535
+            "totalCount": 27548
         },
         "closedPullRequests": {
-            "totalCount": 10723
+            "totalCount": 10725
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyMTI4OTExMA==",
-        "nameWithOwner": "vinta/awesome-python",
+        "name": "awesome-python",
+        "owner": {
+            "login": "vinta"
+        },
         "mergedPullRequests": {
             "totalCount": 527
         },
         "closedPullRequests": {
-            "totalCount": 899
+            "totalCount": 900
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMDYyODk3",
-        "nameWithOwner": "github/gitignore",
+        "name": "gitignore",
+        "owner": {
+            "login": "github"
+        },
         "mergedPullRequests": {
             "totalCount": 1522
         },
         "closedPullRequests": {
-            "totalCount": 2240
+            "totalCount": 2241
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyMzI1Mjk4",
-        "nameWithOwner": "torvalds/linux",
+        "name": "linux",
+        "owner": {
+            "login": "torvalds"
+        },
         "mergedPullRequests": {
             "totalCount": 9
         },
@@ -221,17 +287,23 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk0MTg4MTkwMA==",
-        "nameWithOwner": "microsoft/vscode",
+        "name": "vscode",
+        "owner": {
+            "login": "microsoft"
+        },
         "mergedPullRequests": {
-            "totalCount": 12019
+            "totalCount": 12034
         },
         "closedPullRequests": {
-            "totalCount": 3228
+            "totalCount": 3229
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMzI0NjQzOTU=",
-        "nameWithOwner": "Snailclimb/JavaGuide",
+        "name": "JavaGuide",
+        "owner": {
+            "login": "Snailclimb"
+        },
         "mergedPullRequests": {
             "totalCount": 721
         },
@@ -241,7 +313,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk2NDk4NDky",
-        "nameWithOwner": "airbnb/javascript",
+        "name": "javascript",
+        "owner": {
+            "login": "airbnb"
+        },
         "mergedPullRequests": {
             "totalCount": 781
         },
@@ -251,7 +326,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMjM0NTg1NTE=",
-        "nameWithOwner": "jackfrued/Python-100-Days",
+        "name": "Python-100-Days",
+        "owner": {
+            "login": "jackfrued"
+        },
         "mergedPullRequests": {
             "totalCount": 12
         },
@@ -261,7 +339,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxOTQxNTA2NA==",
-        "nameWithOwner": "ossu/computer-science",
+        "name": "computer-science",
+        "owner": {
+            "login": "ossu"
+        },
         "mergedPullRequests": {
             "totalCount": 223
         },
@@ -271,7 +352,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMDM5NTIw",
-        "nameWithOwner": "ytdl-org/youtube-dl",
+        "name": "youtube-dl",
+        "owner": {
+            "login": "ytdl-org"
+        },
         "mergedPullRequests": {
             "totalCount": 1571
         },
@@ -281,7 +365,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkzNTk1NTY2Ng==",
-        "nameWithOwner": "jlevy/the-art-of-command-line",
+        "name": "the-art-of-command-line",
+        "owner": {
+            "login": "jlevy"
+        },
         "mergedPullRequests": {
             "totalCount": 304
         },
@@ -291,47 +378,62 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyNDE1NzYyNzA=",
-        "nameWithOwner": "labuladong/fucking-algorithm",
+        "name": "fucking-algorithm",
+        "owner": {
+            "login": "labuladong"
+        },
         "mergedPullRequests": {
             "totalCount": 209
         },
         "closedPullRequests": {
-            "totalCount": 181
+            "totalCount": 182
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyOTAyODc3NQ==",
-        "nameWithOwner": "facebook/react-native",
+        "name": "react-native",
+        "owner": {
+            "login": "facebook"
+        },
         "mergedPullRequests": {
             "totalCount": 647
         },
         "closedPullRequests": {
-            "totalCount": 10239
+            "totalCount": 10243
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkzNjYzMzM3MA==",
-        "nameWithOwner": "awesome-selfhosted/awesome-selfhosted",
+        "name": "awesome-selfhosted",
+        "owner": {
+            "login": "awesome-selfhosted"
+        },
         "mergedPullRequests": {
-            "totalCount": 1961
+            "totalCount": 1964
         },
         "closedPullRequests": {
-            "totalCount": 476
+            "totalCount": 480
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyMzA5Njk1OQ==",
-        "nameWithOwner": "golang/go",
+        "name": "go",
+        "owner": {
+            "login": "golang"
+        },
         "mergedPullRequests": {
             "totalCount": 1
         },
         "closedPullRequests": {
-            "totalCount": 2281
+            "totalCount": 2290
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk5Mzg0MjY3",
-        "nameWithOwner": "electron/electron",
+        "name": "electron",
+        "owner": {
+            "login": "electron"
+        },
         "mergedPullRequests": {
             "totalCount": 15732
         },
@@ -341,7 +443,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMTI1MDcwODY=",
-        "nameWithOwner": "30-seconds/30-seconds-of-code",
+        "name": "30-seconds-of-code",
+        "owner": {
+            "login": "30-seconds"
+        },
         "mergedPullRequests": {
             "totalCount": 753
         },
@@ -351,7 +456,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk5NDMxNDk=",
-        "nameWithOwner": "d3/d3",
+        "name": "d3",
+        "owner": {
+            "login": "d3"
+        },
         "mergedPullRequests": {
             "totalCount": 439
         },
@@ -361,7 +469,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk2MzUzNzI0OQ==",
-        "nameWithOwner": "facebook/create-react-app",
+        "name": "create-react-app",
+        "owner": {
+            "login": "facebook"
+        },
         "mergedPullRequests": {
             "totalCount": 1942
         },
@@ -371,17 +482,23 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyMzA4ODc0MA==",
-        "nameWithOwner": "axios/axios",
+        "name": "axios",
+        "owner": {
+            "login": "axios"
+        },
         "mergedPullRequests": {
             "totalCount": 603
         },
         "closedPullRequests": {
-            "totalCount": 511
+            "totalCount": 514
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxNDA5ODA2OQ==",
-        "nameWithOwner": "justjavac/free-programming-books-zh_CN",
+        "name": "free-programming-books-zh_CN",
+        "owner": {
+            "login": "justjavac"
+        },
         "mergedPullRequests": {
             "totalCount": 280
         },
@@ -391,39 +508,51 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk3MDEwNzc4Ng==",
-        "nameWithOwner": "vercel/next.js",
+        "name": "next.js",
+        "owner": {
+            "login": "vercel"
+        },
         "mergedPullRequests": {
-            "totalCount": 10083
+            "totalCount": 10099
         },
         "closedPullRequests": {
-            "totalCount": 2517
+            "totalCount": 2532
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyMDU4MDQ5OA==",
-        "nameWithOwner": "kubernetes/kubernetes",
+        "name": "kubernetes",
+        "owner": {
+            "login": "kubernetes"
+        },
         "mergedPullRequests": {
-            "totalCount": 52660
+            "totalCount": 52662
         },
         "closedPullRequests": {
-            "totalCount": 17558
+            "totalCount": 17569
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyNzE5Mzc3OQ==",
-        "nameWithOwner": "nodejs/node",
+        "name": "node",
+        "owner": {
+            "login": "nodejs"
+        },
         "mergedPullRequests": {
-            "totalCount": 4883
+            "totalCount": 4895
         },
         "closedPullRequests": {
-            "totalCount": 23108
+            "totalCount": 23116
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyMTU0MDc1OQ==",
-        "nameWithOwner": "avelino/awesome-go",
+        "name": "awesome-go",
+        "owner": {
+            "login": "avelino"
+        },
         "mergedPullRequests": {
-            "totalCount": 2818
+            "totalCount": 2826
         },
         "closedPullRequests": {
             "totalCount": 1097
@@ -431,67 +560,88 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk1NzYyMDE=",
-        "nameWithOwner": "mrdoob/three.js",
+        "name": "three.js",
+        "owner": {
+            "login": "mrdoob"
+        },
         "mergedPullRequests": {
-            "totalCount": 10025
+            "totalCount": 10035
         },
         "closedPullRequests": {
-            "totalCount": 3040
+            "totalCount": 3041
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMzM0NDIzODQ=",
-        "nameWithOwner": "denoland/deno",
+        "name": "deno",
+        "owner": {
+            "login": "denoland"
+        },
         "mergedPullRequests": {
-            "totalCount": 7000
+            "totalCount": 7011
         },
         "closedPullRequests": {
-            "totalCount": 1714
+            "totalCount": 1720
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMDAwNjA5MTI=",
-        "nameWithOwner": "microsoft/terminal",
+        "name": "terminal",
+        "owner": {
+            "login": "microsoft"
+        },
         "mergedPullRequests": {
             "totalCount": 2886
         },
         "closedPullRequests": {
-            "totalCount": 338
+            "totalCount": 341
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyMDkyOTAyNQ==",
-        "nameWithOwner": "microsoft/TypeScript",
+        "name": "TypeScript",
+        "owner": {
+            "login": "microsoft"
+        },
         "mergedPullRequests": {
             "totalCount": 12217
         },
         "closedPullRequests": {
-            "totalCount": 2691
+            "totalCount": 2696
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyNDE5NTMzOQ==",
-        "nameWithOwner": "angular/angular",
+        "name": "angular",
+        "owner": {
+            "login": "angular"
+        },
         "mergedPullRequests": {
             "totalCount": 3222
         },
         "closedPullRequests": {
-            "totalCount": 18910
+            "totalCount": 18911
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkzNDUyNjg4NA==",
-        "nameWithOwner": "ant-design/ant-design",
+        "name": "ant-design",
+        "owner": {
+            "login": "ant-design"
+        },
         "mergedPullRequests": {
-            "totalCount": 9334
+            "totalCount": 9342
         },
         "closedPullRequests": {
-            "totalCount": 2522
+            "totalCount": 2529
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMDM2MzM5ODQ=",
-        "nameWithOwner": "goldbergyoni/nodebestpractices",
+        "name": "nodebestpractices",
+        "owner": {
+            "login": "goldbergyoni"
+        },
         "mergedPullRequests": {
             "totalCount": 737
         },
@@ -501,17 +651,23 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyMzA4MzE1Ng==",
-        "nameWithOwner": "mui/material-ui",
+        "name": "material-ui",
+        "owner": {
+            "login": "mui"
+        },
         "mergedPullRequests": {
-            "totalCount": 14189
+            "totalCount": 14219
         },
         "closedPullRequests": {
-            "totalCount": 3074
+            "totalCount": 3080
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk5MDc5NjY2Mw==",
-        "nameWithOwner": "puppeteer/puppeteer",
+        "name": "puppeteer",
+        "owner": {
+            "login": "puppeteer"
+        },
         "mergedPullRequests": {
             "totalCount": 2688
         },
@@ -521,7 +677,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMzgzOTMxMzk=",
-        "nameWithOwner": "trimstray/the-book-of-secret-knowledge",
+        "name": "the-book-of-secret-knowledge",
+        "owner": {
+            "login": "trimstray"
+        },
         "mergedPullRequests": {
             "totalCount": 122
         },
@@ -531,9 +690,12 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk2MjYwNzIyNw==",
-        "nameWithOwner": "yangshun/tech-interview-handbook",
+        "name": "tech-interview-handbook",
+        "owner": {
+            "login": "yangshun"
+        },
         "mergedPullRequests": {
-            "totalCount": 181
+            "totalCount": 182
         },
         "closedPullRequests": {
             "totalCount": 52
@@ -541,17 +703,23 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxODQ0NTYyNTE=",
-        "nameWithOwner": "microsoft/PowerToys",
+        "name": "PowerToys",
+        "owner": {
+            "login": "microsoft"
+        },
         "mergedPullRequests": {
-            "totalCount": 3459
+            "totalCount": 3460
         },
         "closedPullRequests": {
-            "totalCount": 411
+            "totalCount": 412
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk4ODQ2NDcwNA==",
-        "nameWithOwner": "PanJiaChen/vue-element-admin",
+        "name": "vue-element-admin",
+        "owner": {
+            "login": "PanJiaChen"
+        },
         "mergedPullRequests": {
             "totalCount": 313
         },
@@ -561,7 +729,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk4ODAxMTkwOA==",
-        "nameWithOwner": "practical-tutorials/project-based-learning",
+        "name": "project-based-learning",
+        "owner": {
+            "login": "practical-tutorials"
+        },
         "mergedPullRequests": {
             "totalCount": 179
         },
@@ -571,17 +742,23 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyMjc5MDQ4OA==",
-        "nameWithOwner": "iluwatar/java-design-patterns",
+        "name": "java-design-patterns",
+        "owner": {
+            "login": "iluwatar"
+        },
         "mergedPullRequests": {
             "totalCount": 863
         },
         "closedPullRequests": {
-            "totalCount": 400
+            "totalCount": 403
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyNTYxNTgy",
-        "nameWithOwner": "animate-css/animate.css",
+        "name": "animate.css",
+        "owner": {
+            "login": "animate-css"
+        },
         "mergedPullRequests": {
             "totalCount": 313
         },
@@ -591,7 +768,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk1MTExNzgzNw==",
-        "nameWithOwner": "tensorflow/models",
+        "name": "models",
+        "owner": {
+            "login": "tensorflow"
+        },
         "mergedPullRequests": {
             "totalCount": 2252
         },
@@ -601,9 +781,12 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk1NDE3MzU5Mw==",
-        "nameWithOwner": "storybookjs/storybook",
+        "name": "storybook",
+        "owner": {
+            "login": "storybookjs"
+        },
         "mergedPullRequests": {
-            "totalCount": 6937
+            "totalCount": 6944
         },
         "closedPullRequests": {
             "totalCount": 1769
@@ -611,7 +794,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkzMzYxNDMwNA==",
-        "nameWithOwner": "nvbn/thefuck",
+        "name": "thefuck",
+        "owner": {
+            "login": "nvbn"
+        },
         "mergedPullRequests": {
             "totalCount": 478
         },
@@ -621,7 +807,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk3NDc5MTM2Ng==",
-        "nameWithOwner": "ryanmcdermott/clean-code-javascript",
+        "name": "clean-code-javascript",
+        "owner": {
+            "login": "ryanmcdermott"
+        },
         "mergedPullRequests": {
             "totalCount": 148
         },
@@ -631,19 +820,25 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk3MjQ3MTI=",
-        "nameWithOwner": "rust-lang/rust",
+        "name": "rust",
+        "owner": {
+            "login": "rust-lang"
+        },
         "mergedPullRequests": {
-            "totalCount": 42836
+            "totalCount": 42880
         },
         "closedPullRequests": {
-            "totalCount": 13435
+            "totalCount": 13452
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxNTUyMjA2NDE=",
-        "nameWithOwner": "huggingface/transformers",
+        "name": "transformers",
+        "owner": {
+            "login": "huggingface"
+        },
         "mergedPullRequests": {
-            "totalCount": 7353
+            "totalCount": 7354
         },
         "closedPullRequests": {
             "totalCount": 1652
@@ -651,7 +846,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxODYzMzI5",
-        "nameWithOwner": "laravel/laravel",
+        "name": "laravel",
+        "owner": {
+            "login": "laravel"
+        },
         "mergedPullRequests": {
             "totalCount": 1449
         },
@@ -661,7 +859,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMTE1ODM1OTM=",
-        "nameWithOwner": "Genymobile/scrcpy",
+        "name": "scrcpy",
+        "owner": {
+            "login": "Genymobile"
+        },
         "mergedPullRequests": {
             "totalCount": 61
         },
@@ -671,7 +872,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkzNDcwNDcx",
-        "nameWithOwner": "FortAwesome/Font-Awesome",
+        "name": "Font-Awesome",
+        "owner": {
+            "login": "FortAwesome"
+        },
         "mergedPullRequests": {
             "totalCount": 193
         },
@@ -681,7 +885,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk1MjYzMTg0MQ==",
-        "nameWithOwner": "gothinkster/realworld",
+        "name": "realworld",
+        "owner": {
+            "login": "gothinkster"
+        },
         "mergedPullRequests": {
             "totalCount": 229
         },
@@ -691,7 +898,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxNTE4MzQwNjI=",
-        "nameWithOwner": "doocs/advanced-java",
+        "name": "advanced-java",
+        "owner": {
+            "login": "doocs"
+        },
         "mergedPullRequests": {
             "totalCount": 74
         },
@@ -701,9 +911,12 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk0MTY0NDgy",
-        "nameWithOwner": "django/django",
+        "name": "django",
+        "owner": {
+            "login": "django"
+        },
         "mergedPullRequests": {
-            "totalCount": 7675
+            "totalCount": 7679
         },
         "closedPullRequests": {
             "totalCount": 8258
@@ -711,7 +924,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyNjUwMDc4Nw==",
-        "nameWithOwner": "tonsky/FiraCode",
+        "name": "FiraCode",
+        "owner": {
+            "login": "tonsky"
+        },
         "mergedPullRequests": {
             "totalCount": 123
         },
@@ -721,9 +937,12 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk0NDU3MTcxOA==",
-        "nameWithOwner": "vuejs/awesome-vue",
+        "name": "awesome-vue",
+        "owner": {
+            "login": "vuejs"
+        },
         "mergedPullRequests": {
-            "totalCount": 3347
+            "totalCount": 3348
         },
         "closedPullRequests": {
             "totalCount": 338
@@ -731,17 +950,23 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMTgxOTI3",
-        "nameWithOwner": "bitcoin/bitcoin",
+        "name": "bitcoin",
+        "owner": {
+            "login": "bitcoin"
+        },
         "mergedPullRequests": {
-            "totalCount": 12207
+            "totalCount": 12218
         },
         "closedPullRequests": {
-            "totalCount": 5495
+            "totalCount": 5512
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxNTIwNDg2MA==",
-        "nameWithOwner": "papers-we-love/papers-we-love",
+        "name": "papers-we-love",
+        "owner": {
+            "login": "papers-we-love"
+        },
         "mergedPullRequests": {
             "totalCount": 406
         },
@@ -751,9 +976,12 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk3NjkxNjMx",
-        "nameWithOwner": "moby/moby",
+        "name": "moby",
+        "owner": {
+            "login": "moby"
+        },
         "mergedPullRequests": {
-            "totalCount": 17615
+            "totalCount": 17618
         },
         "closedPullRequests": {
             "totalCount": 4574
@@ -761,17 +989,23 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk1MTA4MDUx",
-        "nameWithOwner": "opencv/opencv",
+        "name": "opencv",
+        "owner": {
+            "login": "opencv"
+        },
         "mergedPullRequests": {
-            "totalCount": 10765
+            "totalCount": 10770
         },
         "closedPullRequests": {
-            "totalCount": 2466
+            "totalCount": 2471
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxNDc0NzU5OA==",
-        "nameWithOwner": "typicode/json-server",
+        "name": "json-server",
+        "owner": {
+            "login": "typicode"
+        },
         "mergedPullRequests": {
             "totalCount": 100
         },
@@ -781,17 +1015,23 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk2Mjk2Nzkw",
-        "nameWithOwner": "spring-projects/spring-boot",
+        "name": "spring-boot",
+        "owner": {
+            "login": "spring-projects"
+        },
         "mergedPullRequests": {
             "totalCount": 41
         },
         "closedPullRequests": {
-            "totalCount": 5319
+            "totalCount": 5320
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkyMDkwNDQzNw==",
-        "nameWithOwner": "gin-gonic/gin",
+        "name": "gin",
+        "owner": {
+            "login": "gin-gonic"
+        },
         "mergedPullRequests": {
             "totalCount": 858
         },
@@ -801,7 +1041,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMDEyOTY4ODE=",
-        "nameWithOwner": "mtdvio/every-programmer-should-know",
+        "name": "every-programmer-should-know",
+        "owner": {
+            "login": "mtdvio"
+        },
         "mergedPullRequests": {
             "totalCount": 86
         },
@@ -811,17 +1054,23 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMTE4MDY4Nw==",
-        "nameWithOwner": "gohugoio/hugo",
+        "name": "hugo",
+        "owner": {
+            "login": "gohugoio"
+        },
         "mergedPullRequests": {
-            "totalCount": 1784
+            "totalCount": 1785
         },
         "closedPullRequests": {
-            "totalCount": 2227
+            "totalCount": 2228
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk3NDI5MzMyMQ==",
-        "nameWithOwner": "sveltejs/svelte",
+        "name": "svelte",
+        "owner": {
+            "login": "sveltejs"
+        },
         "mergedPullRequests": {
             "totalCount": 2417
         },
@@ -831,7 +1080,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxODYxNDU4",
-        "nameWithOwner": "hakimel/reveal.js",
+        "name": "reveal.js",
+        "owner": {
+            "login": "hakimel"
+        },
         "mergedPullRequests": {
             "totalCount": 365
         },
@@ -841,7 +1093,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMDcxMTE0MjE=",
-        "nameWithOwner": "thedaviddias/Front-End-Checklist",
+        "name": "Front-End-Checklist",
+        "owner": {
+            "login": "thedaviddias"
+        },
         "mergedPullRequests": {
             "totalCount": 172
         },
@@ -851,27 +1106,36 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkzNjc4NzMx",
-        "nameWithOwner": "webpack/webpack",
+        "name": "webpack",
+        "owner": {
+            "login": "webpack"
+        },
         "mergedPullRequests": {
             "totalCount": 4180
         },
         "closedPullRequests": {
-            "totalCount": 1545
+            "totalCount": 1550
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk1MDc3NzU=",
-        "nameWithOwner": "elastic/elasticsearch",
+        "name": "elasticsearch",
+        "owner": {
+            "login": "elastic"
+        },
         "mergedPullRequests": {
-            "totalCount": 51310
+            "totalCount": 51318
         },
         "closedPullRequests": {
-            "totalCount": 7704
+            "totalCount": 7707
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk2MTIyMzA=",
-        "nameWithOwner": "nvm-sh/nvm",
+        "name": "nvm",
+        "owner": {
+            "login": "nvm-sh"
+        },
         "mergedPullRequests": {
             "totalCount": 654
         },
@@ -881,9 +1145,12 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMDYwMTczNDM=",
-        "nameWithOwner": "tailwindlabs/tailwindcss",
+        "name": "tailwindcss",
+        "owner": {
+            "login": "tailwindlabs"
+        },
         "mergedPullRequests": {
-            "totalCount": 1516
+            "totalCount": 1518
         },
         "closedPullRequests": {
             "totalCount": 396
@@ -891,9 +1158,12 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkxMDc0NDE4Mw==",
-        "nameWithOwner": "netdata/netdata",
+        "name": "netdata",
+        "owner": {
+            "login": "netdata"
+        },
         "mergedPullRequests": {
-            "totalCount": 5771
+            "totalCount": 5772
         },
         "closedPullRequests": {
             "totalCount": 724
@@ -901,9 +1171,12 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk0NDgzODk0OQ==",
-        "nameWithOwner": "apple/swift",
+        "name": "swift",
+        "owner": {
+            "login": "apple"
+        },
         "mergedPullRequests": {
-            "totalCount": 39295
+            "totalCount": 39302
         },
         "closedPullRequests": {
             "totalCount": 5037
@@ -911,29 +1184,38 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk1OTY4OTI=",
-        "nameWithOwner": "pallets/flask",
+        "name": "flask",
+        "owner": {
+            "login": "pallets"
+        },
         "mergedPullRequests": {
             "totalCount": 1404
         },
         "closedPullRequests": {
-            "totalCount": 857
+            "totalCount": 859
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk0ODM3ODk0Nw==",
-        "nameWithOwner": "fatedier/frp",
+        "name": "frp",
+        "owner": {
+            "login": "fatedier"
+        },
         "mergedPullRequests": {
-            "totalCount": 392
+            "totalCount": 394
         },
         "closedPullRequests": {
-            "totalCount": 198
+            "totalCount": 201
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkzMjQ4NDM4MQ==",
-        "nameWithOwner": "ripienaar/free-for-dev",
+        "name": "free-for-dev",
+        "owner": {
+            "login": "ripienaar"
+        },
         "mergedPullRequests": {
-            "totalCount": 1961
+            "totalCount": 1964
         },
         "closedPullRequests": {
             "totalCount": 504
@@ -941,7 +1223,10 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk0NjAwNzg=",
-        "nameWithOwner": "angular/angular.js",
+        "name": "angular.js",
+        "owner": {
+            "login": "angular"
+        },
         "mergedPullRequests": {
             "totalCount": 789
         },
@@ -951,17 +1236,23 @@
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnk2NTYwMDk3NQ==",
-        "nameWithOwner": "pytorch/pytorch",
+        "name": "pytorch",
+        "owner": {
+            "login": "pytorch"
+        },
         "mergedPullRequests": {
             "totalCount": 5181
         },
         "closedPullRequests": {
-            "totalCount": 51393
+            "totalCount": 51430
         }
     },
     {
         "id": "MDEwOlJlcG9zaXRvcnkzNjUzNTE1Ng==",
-        "nameWithOwner": "reduxjs/redux",
+        "name": "redux",
+        "owner": {
+            "login": "reduxjs"
+        },
         "mergedPullRequests": {
             "totalCount": 1551
         },
@@ -970,18 +1261,11 @@
         }
     },
     {
-        "id": "MDEwOlJlcG9zaXRvcnkxMzM0MzY5",
-        "nameWithOwner": "resume/resume.github.com",
-        "mergedPullRequests": {
-            "totalCount": 84
-        },
-        "closedPullRequests": {
-            "totalCount": 84
-        }
-    },
-    {
         "id": "MDEwOlJlcG9zaXRvcnkzMjI4NTA1",
-        "nameWithOwner": "atom/atom",
+        "name": "atom",
+        "owner": {
+            "login": "atom"
+        },
         "mergedPullRequests": {
             "totalCount": 3932
         },
@@ -990,8 +1274,24 @@
         }
     },
     {
+        "id": "MDEwOlJlcG9zaXRvcnkxMzM0MzY5",
+        "name": "resume.github.com",
+        "owner": {
+            "login": "resume"
+        },
+        "mergedPullRequests": {
+            "totalCount": 84
+        },
+        "closedPullRequests": {
+            "totalCount": 84
+        }
+    },
+    {
         "id": "MDEwOlJlcG9zaXRvcnkyMzcxNTk=",
-        "nameWithOwner": "expressjs/express",
+        "name": "express",
+        "owner": {
+            "login": "expressjs"
+        },
         "mergedPullRequests": {
             "totalCount": 257
         },
