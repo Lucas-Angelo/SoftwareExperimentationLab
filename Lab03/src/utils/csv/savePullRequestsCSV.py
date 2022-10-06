@@ -30,12 +30,6 @@ def saveInCSV(pullRequestJsonList):
         pullrequest['analisesTimeInDays'] = None
         pullrequest['bodyHTMLLength'] = None
 
-        if flag==0:
-            # Writing headers of CSV file
-            header = pullrequest.keys()
-            csv_writer.writerow(header)
-        flag+=1
-
         pullrequest['reviews'] = pullrequest['reviews']['totalCount']
         pullrequest['files'] = pullrequest['files']['totalCount']
 
@@ -49,6 +43,16 @@ def saveInCSV(pullRequestJsonList):
         pullrequest['analisesTimeInDays'] = calculate_age(pullrequest['createdAt'], pullrequest['closedAt'], "days")
 
         pullrequest['bodyHTMLLength'] = str(len(bodyHTMLreplaced))
+
+        del pullrequest['id']
+        del pullrequest['url']
+        del pullrequest['bodyHTML']
+
+        if flag==0:
+            # Writing headers of CSV file
+            header = pullrequest.keys()
+            csv_writer.writerow(header)
+        flag+=1
 
         # Writing data of CSV file
         csv_writer.writerow(pullrequest.values())

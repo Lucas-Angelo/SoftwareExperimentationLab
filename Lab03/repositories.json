@@ -6,10 +6,10 @@
             "login": "freeCodeCamp"
         },
         "mergedPullRequests": {
-            "totalCount": 18319
+            "totalCount": 18338
         },
         "closedPullRequests": {
-            "totalCount": 12456
+            "totalCount": 12475
         }
     },
     {
@@ -32,10 +32,10 @@
             "login": "EbookFoundation"
         },
         "mergedPullRequests": {
-            "totalCount": 4636
+            "totalCount": 4738
         },
         "closedPullRequests": {
-            "totalCount": 1795
+            "totalCount": 1865
         }
     },
     {
@@ -71,10 +71,10 @@
             "login": "kamranahmedse"
         },
         "mergedPullRequests": {
-            "totalCount": 736
+            "totalCount": 847
         },
         "closedPullRequests": {
-            "totalCount": 278
+            "totalCount": 344
         }
     },
     {
@@ -123,10 +123,10 @@
             "login": "facebook"
         },
         "mergedPullRequests": {
-            "totalCount": 8534
+            "totalCount": 8558
         },
         "closedPullRequests": {
-            "totalCount": 3824
+            "totalCount": 3851
         }
     },
     {
@@ -136,7 +136,7 @@
             "login": "tensorflow"
         },
         "mergedPullRequests": {
-            "totalCount": 15160
+            "totalCount": 15165
         },
         "closedPullRequests": {
             "totalCount": 6433
@@ -162,10 +162,10 @@
             "login": "twbs"
         },
         "mergedPullRequests": {
-            "totalCount": 7858
+            "totalCount": 7870
         },
         "closedPullRequests": {
-            "totalCount": 5953
+            "totalCount": 5958
         }
     },
     {
@@ -214,10 +214,10 @@
             "login": "ohmyzsh"
         },
         "mergedPullRequests": {
-            "totalCount": 2709
+            "totalCount": 2712
         },
         "closedPullRequests": {
-            "totalCount": 3416
+            "totalCount": 3419
         }
     },
     {
@@ -227,10 +227,10 @@
             "login": "TheAlgorithms"
         },
         "mergedPullRequests": {
-            "totalCount": 1889
+            "totalCount": 1894
         },
         "closedPullRequests": {
-            "totalCount": 3416
+            "totalCount": 3453
         }
     },
     {
@@ -240,10 +240,10 @@
             "login": "flutter"
         },
         "mergedPullRequests": {
-            "totalCount": 27548
+            "totalCount": 27582
         },
         "closedPullRequests": {
-            "totalCount": 10725
+            "totalCount": 10741
         }
     },
     {
@@ -292,10 +292,10 @@
             "login": "microsoft"
         },
         "mergedPullRequests": {
-            "totalCount": 12034
+            "totalCount": 12089
         },
         "closedPullRequests": {
-            "totalCount": 3229
+            "totalCount": 3231
         }
     },
     {
@@ -309,19 +309,6 @@
         },
         "closedPullRequests": {
             "totalCount": 237
-        }
-    },
-    {
-        "id": "MDEwOlJlcG9zaXRvcnk2NDk4NDky",
-        "name": "javascript",
-        "owner": {
-            "login": "airbnb"
-        },
-        "mergedPullRequests": {
-            "totalCount": 781
-        },
-        "closedPullRequests": {
-            "totalCount": 537
         }
     },
     {
@@ -399,7 +386,7 @@
             "totalCount": 647
         },
         "closedPullRequests": {
-            "totalCount": 10243
+            "totalCount": 10260
         }
     },
     {
@@ -425,7 +412,7 @@
             "totalCount": 1
         },
         "closedPullRequests": {
-            "totalCount": 2290
+            "totalCount": 2297
         }
     },
     {
@@ -435,10 +422,10 @@
             "login": "electron"
         },
         "mergedPullRequests": {
-            "totalCount": 15732
+            "totalCount": 15750
         },
         "closedPullRequests": {
-            "totalCount": 1979
+            "totalCount": 1984
         }
     },
     {
@@ -487,10 +474,10 @@
             "login": "axios"
         },
         "mergedPullRequests": {
-            "totalCount": 603
+            "totalCount": 604
         },
         "closedPullRequests": {
-            "totalCount": 514
+            "totalCount": 515
         }
     },
     {
@@ -513,10 +500,10 @@
             "login": "vercel"
         },
         "mergedPullRequests": {
-            "totalCount": 10099
+            "totalCount": 10118
         },
         "closedPullRequests": {
-            "totalCount": 2532
+            "totalCount": 2535
         }
     },
     {
@@ -526,10 +513,10 @@
             "login": "kubernetes"
         },
         "mergedPullRequests": {
-            "totalCount": 52662
+            "totalCount": 52679
         },
         "closedPullRequests": {
-            "totalCount": 17569
+            "totalCount": 17579
         }
     },
     {
@@ -539,10 +526,10 @@
             "login": "nodejs"
         },
         "mergedPullRequests": {
-            "totalCount": 4895
+            "totalCount": 4905
         },
         "closedPullRequests": {
-            "totalCount": 23116
+            "totalCount": 23126
         }
     },
     {
@@ -555,7 +542,7 @@
             "totalCount": 2826
         },
         "closedPullRequests": {
-            "totalCount": 1097
+            "totalCount": 1098
         }
     },
     {
@@ -565,7 +552,7 @@
             "login": "mrdoob"
         },
         "mergedPullRequests": {
-            "totalCount": 10035
+            "totalCount": 10037
         },
         "closedPullRequests": {
             "totalCount": 3041
@@ -578,10 +565,10 @@
             "login": "denoland"
         },
         "mergedPullRequests": {
-            "totalCount": 7011
+            "totalCount": 7023
         },
         "closedPullRequests": {
-            "totalCount": 1720
+            "totalCount": 1721
         }
     },
     {
@@ -604,7 +591,7 @@
             "login": "microsoft"
         },
         "mergedPullRequests": {
-            "totalCount": 12217
+            "totalCount": 12225
         },
         "closedPullRequests": {
             "totalCount": 2696
@@ -617,10 +604,10 @@
             "login": "angular"
         },
         "mergedPullRequests": {
-            "totalCount": 3222
+            "totalCount": 3225
         },
         "closedPullRequests": {
-            "totalCount": 18911
+            "totalCount": 18928
         }
     },
     {
@@ -630,10 +617,10 @@
             "login": "ant-design"
         },
         "mergedPullRequests": {
-            "totalCount": 9342
+            "totalCount": 9345
         },
         "closedPullRequests": {
-            "totalCount": 2529
+            "totalCount": 2531
         }
     },
     {
@@ -656,10 +643,10 @@
             "login": "mui"
         },
         "mergedPullRequests": {
-            "totalCount": 14219
+            "totalCount": 14225
         },
         "closedPullRequests": {
-            "totalCount": 3080
+            "totalCount": 3081
         }
     },
     {
@@ -669,10 +656,10 @@
             "login": "puppeteer"
         },
         "mergedPullRequests": {
-            "totalCount": 2688
+            "totalCount": 2690
         },
         "closedPullRequests": {
-            "totalCount": 643
+            "totalCount": 645
         }
     },
     {
@@ -711,7 +698,7 @@
             "totalCount": 3460
         },
         "closedPullRequests": {
-            "totalCount": 412
+            "totalCount": 413
         }
     },
     {
@@ -747,10 +734,10 @@
             "login": "iluwatar"
         },
         "mergedPullRequests": {
-            "totalCount": 863
+            "totalCount": 867
         },
         "closedPullRequests": {
-            "totalCount": 403
+            "totalCount": 405
         }
     },
     {
@@ -786,10 +773,10 @@
             "login": "storybookjs"
         },
         "mergedPullRequests": {
-            "totalCount": 6944
+            "totalCount": 6957
         },
         "closedPullRequests": {
-            "totalCount": 1769
+            "totalCount": 1772
         }
     },
     {
@@ -825,10 +812,10 @@
             "login": "rust-lang"
         },
         "mergedPullRequests": {
-            "totalCount": 42880
+            "totalCount": 42924
         },
         "closedPullRequests": {
-            "totalCount": 13452
+            "totalCount": 13458
         }
     },
     {
@@ -838,23 +825,10 @@
             "login": "huggingface"
         },
         "mergedPullRequests": {
-            "totalCount": 7354
+            "totalCount": 7379
         },
         "closedPullRequests": {
-            "totalCount": 1652
-        }
-    },
-    {
-        "id": "MDEwOlJlcG9zaXRvcnkxODYzMzI5",
-        "name": "laravel",
-        "owner": {
-            "login": "laravel"
-        },
-        "mergedPullRequests": {
-            "totalCount": 1449
-        },
-        "closedPullRequests": {
-            "totalCount": 2882
+            "totalCount": 1656
         }
     },
     {
@@ -868,6 +842,19 @@
         },
         "closedPullRequests": {
             "totalCount": 234
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnkxODYzMzI5",
+        "name": "laravel",
+        "owner": {
+            "login": "laravel"
+        },
+        "mergedPullRequests": {
+            "totalCount": 1451
+        },
+        "closedPullRequests": {
+            "totalCount": 2883
         }
     },
     {
@@ -890,10 +877,10 @@
             "login": "gothinkster"
         },
         "mergedPullRequests": {
-            "totalCount": 229
+            "totalCount": 233
         },
         "closedPullRequests": {
-            "totalCount": 104
+            "totalCount": 107
         }
     },
     {
@@ -916,10 +903,10 @@
             "login": "django"
         },
         "mergedPullRequests": {
-            "totalCount": 7679
+            "totalCount": 7683
         },
         "closedPullRequests": {
-            "totalCount": 8258
+            "totalCount": 8259
         }
     },
     {
@@ -929,7 +916,7 @@
             "login": "tonsky"
         },
         "mergedPullRequests": {
-            "totalCount": 123
+            "totalCount": 124
         },
         "closedPullRequests": {
             "totalCount": 45
@@ -955,10 +942,10 @@
             "login": "bitcoin"
         },
         "mergedPullRequests": {
-            "totalCount": 12218
+            "totalCount": 12230
         },
         "closedPullRequests": {
-            "totalCount": 5512
+            "totalCount": 5519
         }
     },
     {
@@ -981,10 +968,10 @@
             "login": "moby"
         },
         "mergedPullRequests": {
-            "totalCount": 17618
+            "totalCount": 17622
         },
         "closedPullRequests": {
-            "totalCount": 4574
+            "totalCount": 4575
         }
     },
     {
@@ -994,10 +981,10 @@
             "login": "opencv"
         },
         "mergedPullRequests": {
-            "totalCount": 10770
+            "totalCount": 10779
         },
         "closedPullRequests": {
-            "totalCount": 2471
+            "totalCount": 2472
         }
     },
     {
@@ -1023,7 +1010,7 @@
             "totalCount": 41
         },
         "closedPullRequests": {
-            "totalCount": 5320
+            "totalCount": 5322
         }
     },
     {
@@ -1059,10 +1046,10 @@
             "login": "gohugoio"
         },
         "mergedPullRequests": {
-            "totalCount": 1785
+            "totalCount": 1788
         },
         "closedPullRequests": {
-            "totalCount": 2228
+            "totalCount": 2229
         }
     },
     {
@@ -1072,7 +1059,7 @@
             "login": "sveltejs"
         },
         "mergedPullRequests": {
-            "totalCount": 2417
+            "totalCount": 2418
         },
         "closedPullRequests": {
             "totalCount": 582
@@ -1114,7 +1101,7 @@
             "totalCount": 4180
         },
         "closedPullRequests": {
-            "totalCount": 1550
+            "totalCount": 1552
         }
     },
     {
@@ -1124,10 +1111,10 @@
             "login": "elastic"
         },
         "mergedPullRequests": {
-            "totalCount": 51318
+            "totalCount": 51355
         },
         "closedPullRequests": {
-            "totalCount": 7707
+            "totalCount": 7712
         }
     },
     {
@@ -1150,7 +1137,7 @@
             "login": "tailwindlabs"
         },
         "mergedPullRequests": {
-            "totalCount": 1518
+            "totalCount": 1519
         },
         "closedPullRequests": {
             "totalCount": 396
@@ -1163,10 +1150,10 @@
             "login": "netdata"
         },
         "mergedPullRequests": {
-            "totalCount": 5772
+            "totalCount": 5778
         },
         "closedPullRequests": {
-            "totalCount": 724
+            "totalCount": 725
         }
     },
     {
@@ -1176,10 +1163,10 @@
             "login": "apple"
         },
         "mergedPullRequests": {
-            "totalCount": 39302
+            "totalCount": 39337
         },
         "closedPullRequests": {
-            "totalCount": 5037
+            "totalCount": 5040
         }
     },
     {
@@ -1192,7 +1179,7 @@
             "totalCount": 1404
         },
         "closedPullRequests": {
-            "totalCount": 859
+            "totalCount": 860
         }
     },
     {
@@ -1215,7 +1202,7 @@
             "login": "ripienaar"
         },
         "mergedPullRequests": {
-            "totalCount": 1964
+            "totalCount": 1967
         },
         "closedPullRequests": {
             "totalCount": 504
@@ -1244,7 +1231,7 @@
             "totalCount": 5181
         },
         "closedPullRequests": {
-            "totalCount": 51430
+            "totalCount": 51524
         }
     },
     {
@@ -1296,7 +1283,20 @@
             "totalCount": 257
         },
         "closedPullRequests": {
-            "totalCount": 807
+            "totalCount": 808
+        }
+    },
+    {
+        "id": "MDEwOlJlcG9zaXRvcnk4ODQzNjgz",
+        "name": "Chart.js",
+        "owner": {
+            "login": "chartjs"
+        },
+        "mergedPullRequests": {
+            "totalCount": 2746
+        },
+        "closedPullRequests": {
+            "totalCount": 787
         }
     }
 ]
